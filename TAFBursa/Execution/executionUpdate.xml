@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="WEB_APP">
+  <test name="Command line test f0741cac-5f1a-4afb-a9f1-c52a7277d63d">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC003"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="RegistrationModule_DP_props"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test f0741cac-5f1a-4afb-a9f1-c52a7277d63d -->
+  <test name="Command line test 49b77bf9-bc23-41cc-a7fb-67479c19ba4b">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC004"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="RegistrationModule_DP_xls"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 49b77bf9-bc23-41cc-a7fb-67479c19ba4b -->
+  <test name="Command line test 15713534-96ba-4aab-a43f-340b4f017a89">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC005"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="RegistrationModule_Inject_UserObject"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 15713534-96ba-4aab-a43f-340b4f017a89 -->
+</suite> <!-- WEB_APP -->
